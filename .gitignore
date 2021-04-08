@@ -3,6 +3,11 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+#Mac Stuff
+._*
+.RData
+.DS_Store
+
 # C extensions
 *.so
 
@@ -101,7 +106,8 @@ ENV/
 .mypy_cache/
 
 #users
-data/
+data/runs/
 results/
-envs/
-**/
+Snakefile.*
+.snakemake/
+._Snake*
