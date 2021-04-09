@@ -107,6 +107,7 @@ ENV/
 
 #users
 data/runs/
+
 results/
 Snakefile.*
 .snakemake/
